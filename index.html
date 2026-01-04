@@ -4,28 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+       <style>
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Optional: keep behavior consistent on hover/focus */
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000;
+            text-decoration: none;
+        }
+
+            body {
+        margin-top: 2.5em;
+        margin-bottom: 4em;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.35;
+        font-size: 10.5pt;
+    }
+
+    h1 { margin: 0 0 6px 0; }
+    h2 { margin: 12px 0 4px 0; }
+    h3 { margin: 0 0 4px 0; }
+    h4 { margin: 0; }
+
+    p { margin: 4px 0; }
+
+    ul {
+        margin: 4px 0 6px 18px;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 4px;
+    }
+
+    hr {
+        border: 0;
+        border-top: 2px solid #555;
+        margin: 6px 0;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+        color: #000;
+        text-decoration: none;
+    }
+    </style>
 </head>
-<body style="margin-top: 3em; margin-bottom: 10em;">
+<body style="margin: 1.2em 0 4em 0;">
     <div style="text-align: center;">
         <h1 style="margin-bottom: 5px;">JONATHAN PUTRA</h1>
-        <h3 style="font-weight: normal; margin-top: 0; margin-bottom: 3px;">BACKEND DEVELOPER</h3>
-        <h3 style="font-weight: normal; margin-top: 0;">LINKEDIN : <a href="https://www.linkedin.com/in/jonathan-putra-43b928265/">Jonathan Putra</a></h3>
+        <h3 style="font-weight: normal; margin-top: 0; margin-bottom: 3px;">JUNIOR BACKEND DEVELOPER (Golang / Microservices)</h3>
     </div>
     <div style="text-align: center;font-weight: normal; padding-left: 3em; padding-right: 3em;">
         <hr style="border: 0; border-top: 2px solid #555; margin: 10px 0;">
-        <p>+628128386669 | jonathanputra134@gmail.com | <a href="https://github.com/JonathanPutra134">@JonathanPutra134</a> (GitHub) | Jakarta, Indonesia 15122</p>
+        <p>+628128386669 | jonathanputra134@gmail.com | <a href="https://github.com/JonathanPutra134">github.com/JonathanPutra134</a> | Jakarta, Indonesia 15122 | <a href="https://linkedin.com/in/jonathan-putra-43b928265">linkedin.com/in/jonathan-putra-43b928265</a></p>
         <hr style="border: 0; border-top: 2px solid #555; margin: 10px 0;">
     </div>
     <div style="font-weight: normal; padding-left: 3em; padding-right: 3em;">
         <h2 style="margin-top: 0; margin-bottom: 3px;">PROFILE</h2>
           <hr style="border: 0; border-top: 2px solid #555; margin: 10px 0;">
-            Recent graduate from Universitas Multimedia Nusantara (Indonesia) with a degree in Informatics.
-            Passionate about building high-quality, reliable, and scalable backend services. Proficient in Golang,
-            TypeScript, PHP, and Python, with moderate experience in these languages. Skilled in developing unit
-            tests, RESTful APIs, microservices, and other backend features for applications. Currently, I am
-            expanding my skill set in machine learning and cloud computing to enhance my contributions to
-            modern software development in this ever-evolving digital era
-
+            Early-career Backend Engineer with a Bachelor’s degree in Informatics and hands-on experience developing production-grade microservices using Golang, GraphQL, and Docker.
+Experienced in API design, performance optimization, and unit testing within enterprise environments.
+Seeking a junior backend or trainee role that offers structured professional development and international exposure.
     </div>
     <div style="font-weight: normal; padding-left: 3em; padding-right: 3em;">
          <h2 style="margin-top: 0; margin-bottom: 3px;">SKILLS</h2>
@@ -35,7 +86,7 @@
                 <b>Languages</b>: Python, Golang, Typescript, PHP, Javascript
             </li>
             <li>
-                <b>Frameworks/Architecture:</b>: Fiber, Echo, Laravel, CodeIgniter, Flask, Microservices
+                <b>Frameworks/Architecture:</b> Fiber, Echo, Laravel, CodeIgniter, Flask, Microservices
             </li>
             <li>
                 <b>Tech Stack</b>: Postgres, MySQL, Redis, AWS, Docker, Azure DevOps, Apollo GraphQL, NSQ
@@ -75,18 +126,10 @@
                     microservices and CMS, mitigating reported issues from internal team or external clients to enhance
                     system reliability
                 </li>
-                <li>
-                    Created comprehensive technical documentation for all assigned backlog items (features, bug fixes,
-                    and improvements).
-                </li>
-                <li>
-                    Improved code quality and development efficiency by actively participating in code reviews and
-                    consistently adhering to Agile Methodologies.
-                </li>
             </ul>
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <h4 style="margin: 0;">Backend Developer (Internship)</h4>
-                <span style="font-size: 14px; color: #555;">January 2023- June 2023</span>
+                <span style="font-size: 14px; color: #555;">January 2023 - June 2023</span>
             </div>
             <ul>
                 <li>
@@ -122,63 +165,83 @@
          <h2 style="margin-top: 0; margin-bottom: 3px;">PROJECTS</h2>
          <hr style="border: 0; border-top: 2px solid #555; margin: 10px 0;">
            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0;"> Event Recommendation System (Thesis Project)</h4>
+                <h4 style="margin: 0;  font-size: 1.1em;"> Event Recommendation System (Thesis Project)</h4>
                 <span style="font-size: 14px; color: #555;">January 2024 - May 2024</span>
-            </div>
-            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                <a href="https://github.com/JonathanPutra134/Event-Hunters-Recommender">Recommender System GitHub</a>
-                <a href="https://github.com/JonathanPutra134/Event-Hunters-Website">Event Search Website GitHub</a>
-                <a href="https://kc.umn.ac.id/id/eprint/35063/">Full Thesis Document</a>
             </div>
             <ul>
                 <li>
-                    Developed the core application, a mock event search website (Event-Hunters), serving as the
-platform for the recommendation system
+                    Built a mock event search web application (Event-Hunters) serving as the platform for a hybrid recommendation system.
                 </li>
                 <li>
-                    Developed and implemented pipelined hybrid event recommendation system that integrates with
-the website via API calls
+                   Designed and implemented a two-stage hybrid recommendation pipeline combining content-based filtering and weighted scoring.
                 </li>
                 <li>
-                    Designed a two-stage recommendation pipeline combining content-based filtering (for user
-preference matching) with a weighted sum approach
+                    Integrated the recommender service with the web application via REST APIs.
                 </li>
                 <li>
-                    The weighted sum refined recommendations by accounting for temporal nature, popularity, and
-location proximity of events.        
-                </li>
-                <li>
-                   Engineered the two main components: a Website Application built with Golang Fiber and a
-Recommender System developed with Flask (Python) for dynamic learning in giving
-recommendations.
+                    Developed the system using Golang (Fiber) for the web service and Flask (Python) for the recommender component.     
                 </li>
             </ul>
-            
+
+<div style="margin-top: 0; padding-top: 0; margin-bottom: 5px; padding-bottom: 5px; font-size: 0.9em;">
+    <p style="margin-left: 20px; margin-bottom:0px; margin-top:0px;">
+        <b>Recommender Repository:</b>
+        <a href="https://github.com/JonathanPutra134/Event-Hunters-Recommender">
+            github.com/JonathanPutra134/Event-Hunters-Recommender
+        </a>
+    </p>
+    <p style="margin-left: 20px; margin-bottom:0px; margin-top:0px;">
+        <b>Website Repository:</b>
+        <a href="https://github.com/JonathanPutra134/Event-Hunters-Website">
+            github.com/JonathanPutra134/Event-Hunters-Website
+        </a>
+    </p>
+    <p style="margin-left: 20px; margin-bottom:0px; margin-top:0px;">
+        <b>Thesis:</b>
+        <a href="https://kc.umn.ac.id/id/eprint/35063">
+            kc.umn.ac.id/id/eprint/35063
+        </a>
+    </p>
+</div>
+
 
 
             <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0;"> MagFin (Student Creativity Project)</h4>
+                <h4 style="margin: 0;  font-size: 1.1em;"> MagFin (Student Creativity Project)</h4>
                 <span style="font-size: 14px; color: #555;">October 2022 - December 2022</span>
-            </div>
-            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                <a href="./images/MagfinCertificate.jfif">Certificate of Appreciation</a>
-                <a href="https://github.com/atras30/maggot-finance">MagFin GitHub</a>
-                <a href="https://www.umn.ac.id/program-pengabdian-kepada-masyarakat-umn-sosialisasi-pengenalan-aplikasi-magfin/">MagFin Published Article</a>
             </div>
             <ul>
                 <li>
                     Developed MagFin, a mobile-based transaction application designed to simplify waste
-                    management transactions for a local community alongside with three other project members.
+                    management transactions for a local community.
                 </li>
                 <li>
                    Streamlined an inefficient manual transaction process by providing a platform for users to manage
                     waste transactions digitally.
                 </li>
                 <li>
-                   This project was conducted as part of a Student Creativity Program in collaboration with
+                       <a href="https://www.umn.ac.id/program-pengabdian-kepada-masyarakat-umn-sosialisasi-pengenalan-aplikasi-magfin/">
+           This project was conducted as part of a Student Creativity Program in collaboration with
                     Multimedia Nusantara University and Bapeda of Tangerang Regency
+        </a>
+                 
                 </li>
             </ul>
+
+            <div style="margin-top: 0; padding-top: 0; margin-bottom: 5px; padding-bottom: 5px; font-size: 0.9em;">
+    <p style="margin-left: 20px; margin-bottom:0px; margin-top:0px;">
+       <b>Recognition:</b>
+        <a href="./images/MagfinCertificate.jfif">
+            Certificate of Appreciation
+        </a>
+    </p>
+    <p style="margin-left: 20px; margin-bottom:0px; margin-top:0px;">
+       <b>GitHub Repository:</b>
+        <a href="https://github.com/atras30/maggot-finance">
+            github.com/atras30/maggot-finance
+        </a>
+    </p>
+</div>
     </div>
 
     <div style="font-weight: normal; padding-left: 3em; padding-right: 3em;">
@@ -193,7 +256,7 @@ recommendations.
             </li>
             <li>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"> Kompas Gramedia Scholarship Awardee By Career Development Center UMN</h4>
+                <h4 style="margin: 0; font-weight: normal;"> Kompas Gramedia Scholarship Awardee</h4>
                 <span style="font-size: 14px; color: #555;">2023</span>
                 </div>
             </li>
@@ -212,7 +275,7 @@ recommendations.
         <ul>
             <li>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"> <a href="./images/TOEIC.jfif" target="_blank">TOEIC Certificate by ITC Indonesia</a></h4>
+                <h4 style="margin: 0; font-weight: normal;"> <a href="./images/TOEIC.jfif" target="_blank">TOEIC (English Proficiency) — Score: 880</a></h4>
                 <span style="font-size: 14px; color: #555;">June 2024</span>
                 </div>
             </li>
@@ -224,37 +287,19 @@ recommendations.
             </li>
             <li>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"><a href="./images/WebProgrammingLabAssistant.jfif" target="_blank">Lab Assistant for Web Programming Course by UMN</a></h4>
+                <h4 style="margin: 0; font-weight: normal;"><a href="./images/WebProgrammingLabAssistant.jfif" target="_blank">Lab Assistant for Web Programming Course</a></h4>
                 <span style="font-size: 14px; color: #555;">July 2022</span>
                 </div>
             </li>
                <li>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"> <a href="./images/AlgorithmDataStructureLabAssistant.jfif" target="_blank">Lab Assistant for Algorithms & Data Structure by UMN</a></h4>
+                <h4 style="margin: 0; font-weight: normal;"> <a href="./images/AlgorithmDataStructureLabAssistant.jfif" target="_blank">Lab Assistant for Algorithms & Data Structure</a></h4>
                 <span style="font-size: 14px; color: #555;"> January 2021</span>
                 </div>
             </li>
         </ul>
     </div>
-        <div style="font-weight: normal; padding-left: 3em; padding-right: 3em;">
-         <h2 style="margin-top: 0; margin-bottom: 3px;">LEADERSHIP AND ACTIVITIES</h2>
-         <hr style="border: 0; border-top: 2px solid #555; margin: 10px 0;">
-        <ul>
-            <li>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"> HMIF (Informatics Student Association) Public Relations Coordinator</h4>
-                <span style="font-size: 14px; color: #555;"> December 2021 - 2022</span>
-                </div>
-                
-            </li>
-            <li>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h4 style="margin: 0; font-weight: normal;"> <a href="./images/ESG.jfif" target="_blank">Student Representative from Indonesia, Virtual Mobility Programme (ESG)</a></h4>
-                <span style="font-size: 14px; color: #555;">December 2021</span>
-                </div>
-            </li>
-        </ul>
-    </div>
+     
 
 
 </body>
